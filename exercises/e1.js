@@ -18,7 +18,7 @@
 /**
  * =============================================================
  * Create a function that works as follows:
-  * The function name is 'logMyMessage'
+  * The function name is 'logMyMessage' strictly.
   * The function logs a specific message in the console.
   * The message is a string value passed as an argument
  * Message example: 'I log my first message!'
@@ -32,7 +32,7 @@
 /**
  * ===============================================================
  * Create a  function that works as follows:
-  * The function name is 'logMessageWithMyName'
+  * The function name is 'logMessageWithMyName' strictly.
   * The function logs a message of 'My name is <name>!'.
   * The name is a string value passed as an argument
  * logMessageWithMyName('Andrey') => 'My name is Andrey!'
@@ -45,7 +45,7 @@
 /**
  * ==============================================================
  * Create a function that works as follows:
-  * the function name is 'logMyData'
+  * the function name is 'logMyInfo' strictly.
   * The function of logs a message of 'My name is <name>, I'm <age> years old!'.
   * The name is a string value passed as an argument.
   * The age is a number value passed as an argument.
@@ -67,7 +67,7 @@ const f = {
   logMessage: logMessage || undefined,
   logMyMessage: logMyMessage || undefined,
   logMessageWithMyName: logMessageWithMyName || undefined,
-  logMyData: logMyData || undefined
+  logMyData: logMyInfo || undefined
 }
 
 export { f };

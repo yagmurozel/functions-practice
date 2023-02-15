@@ -41,7 +41,7 @@ describe('logMessageWithMyName', () => {
     });
 })
 
-describe('logMyData', () => {
+describe('logMyInfo', () => {
     it('The test function should exist', () => {
         expect(f.logMyData).instanceOf(Function);
     });

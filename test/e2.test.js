@@ -12,6 +12,15 @@ describe('rectArea', () => {
     });
 });
 
+describe('roomVars', () => {
+    it('The test function should exist', () => {
+        expect(f.roomVars).instanceOf(Array);
+    });
+    it('All room values should be defined', () => {
+        expect(f.roomVars.filter(item => !item)).toEqual([]);
+    });
+});
+
 describe('totalRoomsArea', () => {
     it('The test function should exist', () => {
         expect(f.totalRoomsArea).instanceOf(Function);

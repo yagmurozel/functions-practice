@@ -51,7 +51,7 @@ console.log();
 
 const f = {
     rectArea: rectArea || undefined,
-    roomVars: [room1, room2, room3],
+    roomVars: [room1 || undefined, room2 || undefined, room3 || undefined],
     totalRoomsArea: totalRoomsArea || undefined,
 }
 export { f };
