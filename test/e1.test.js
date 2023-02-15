@@ -13,7 +13,7 @@ describe('logMessage', () => {
         const logSpy = vitest.spyOn(console, 'log');
         f.logMessage();
         expect(logSpy).toBeCalledTimes(1);
-        expect(logSpy).toBeCalledWith('Hello World');
+        expect(logSpy).toBeCalledWith('Hello, World!');
     });
 })
 
