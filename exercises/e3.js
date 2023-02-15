@@ -4,13 +4,13 @@
 /**
  * ====================================================
  * Create a function that works as follows:
- * The function name is 'doesArrayIncludeItem'
+ * The function name is 'doesArrayIncludeItemsBetweenVals'
  * given an array of numbers. You can use it as the arr for testing purposes
  * The function take an arr (array), val1 (number) and val2 (number) as arguments.
  * The function returns a boolean if array includes an item that is greater than val1 and less than val2
  * The function MUST make an early return if the item is found and use the default return otherwise
- * doesArrayIncludeItem([2, 4, 2], 3, 5) => true
- * doesArrayIncludeItem([2, 4, 2], 5, 10) => false
+ * doesArrayIncludeItemsBetweenVals([2, 4, 2], 3, 5) => true
+ * doesArrayIncludeItemsBetweenVals([2, 4, 2], 5, 10) => false
  */
 
 // Your code goes here...
@@ -24,7 +24,7 @@
  * Arrow Function name: getValueWithConditionTwo();
  * Variable name for the function expression: getValueWithConditionThree();
  * All three functions resolve the same task:
-    * The function take two numbers as arguments
+    * The function takes two numbers as arguments
     * If the numbers are both equal to 40, return the sum of them
     * Else return the doubled sum of them
  * getValueWithConditionOne(40, 40) => 80;
@@ -41,7 +41,7 @@
 
 // Do not delete or change the lines beneath
 const f = {
-  doesArrayIncludeItem: doesArrayIncludeItem || undefined,
+  doesArrayIncludeItemsBetweenVals: doesArrayIncludeItemsBetweenVals || undefined,
   getValueWithConditionOne: getValueWithConditionOne || undefined,
   getValueWithConditionTwo: getValueWithConditionTwo || undefined,
   getValueWithConditionThree: getValueWithConditionThree || undefined,

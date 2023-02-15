@@ -13,11 +13,24 @@ describe('rectArea', () => {
 });
 
 describe('roomVars', () => {
-    it('The test function should exist', () => {
+    it('The variable of Array type should exist', () => {
         expect(f.roomVars).instanceOf(Array);
     });
-    it('All room values should be defined', () => {
+    it('All rooms variable values should be defined', () => {
         expect(f.roomVars.filter(item => !item)).toEqual([]);
+    });
+});
+
+describe('result', () => {
+
+    it('The function should exist', () => {
+        expect(f.result).instanceOf(Function);
+    });
+    it('The result should log a message with a proper value', () => {
+        const spy = vitest.spyOn(console, 'log');
+        f.result();
+        expect(spy).toBeCalledTimes(1);
+        expect(spy).toBeCalledWith(95);
     });
 });
 

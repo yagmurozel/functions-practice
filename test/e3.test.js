@@ -1,14 +1,14 @@
 import { vitest, it, describe, expect } from "vitest";
 import { f } from "../exercises/e3";
 
-describe('doesArrayIncludeItem', () => {
+describe('doesArrayIncludeItemBetweenVals', () => {
   it('The final test function should exist', () => {
-    expect(f.doesArrayIncludeItem).instanceOf(Function);
+    expect(f.doesArrayIncludeItemsBetweenVals).instanceOf(Function);
   });
   it('Should return correct values', () => {
     const arr = [45, 62, 3, 21, 7, 19, 59, 22, 34, 87];
-    expect(f.doesArrayIncludeItem(arr, 18, 21)).toEqual(true);
-    expect(f.doesArrayIncludeItem(arr, 19, 21)).toEqual(false);
+    expect(f.doesArrayIncludeItemsBetweenVals(arr, 18, 21)).toEqual(true);
+    expect(f.doesArrayIncludeItemsBetweenVals(arr, 19, 21)).toEqual(false);
   });
 });
 
