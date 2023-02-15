@@ -11,7 +11,8 @@
     "test-all": "vitest --run",
     "test-1": "vitest --run e1.",
     "test-2": "vitest --run e2.",
-    "test-3": "vitest --run e3."
+    "test-3": "vitest --run e3.",
+    "test-4": "vitest --run e4."
   },
   "author": "",
   "license": "ISC",
