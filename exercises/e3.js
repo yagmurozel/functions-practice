@@ -20,9 +20,9 @@
 /**
  * ====================================================
  * Create three functions using 3 types of syntax: named, arrow and function expression (with anonymous function)
- * Named function: getValueWithConditionOne();
- * Arrow Function name: getValueWithConditionTwo();
- * Variable name for the function expression: getValueWithConditionThree();
+ * Named function: getValueWithConditionOne;
+ * Arrow Function name: getValueWithConditionTwo;
+ * Variable name for the function expression: getValueWithConditionThree;
  * All three functions resolve the same task:
     * The function takes two numbers as arguments
     * If the numbers are both equal to 40, return the sum of them

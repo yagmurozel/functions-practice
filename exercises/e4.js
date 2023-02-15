@@ -51,7 +51,7 @@ const logSecondsUpToMax = function (max) {
       console.log(i++);
     }
   }, 1000);
-  return true
+  return true;
 }
 
 
