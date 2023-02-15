@@ -37,7 +37,7 @@
 
 // Make the function call in the parentheses of the console.log statement.
 // Use room1, room2, room3 values as arguments for the function call
-console.log();
+console.log(/* replace this comment with a function call here... */);
 
 
 
@@ -48,7 +48,6 @@ console.log();
 
 
 // Do not delete or change the lines beneath
-
 const f = {
     rectArea: rectArea || undefined,
     roomVars: [room1 || undefined, room2 || undefined, room3 || undefined],
